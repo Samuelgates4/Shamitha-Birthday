@@ -1,0 +1,123 @@
+.in-container {
+    display: inline-block;
+    font-family: 'Comfortaa';font-size: 22px;
+    font-size: 22px;
+}
+
+
+.hero {
+    padding: 8% 16%;
+}
+
+
+.in-container .hey{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 2s steps(13),
+            cursor .4s step-end infinite alternate;
+    animation-fill-mode: forwards ;
+}
+
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+    to {width: 100%; border-color: transparent;}
+}
+.in-container .hap{
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    animation:
+            typing 2s steps(14),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode: forwards ;
+    color: #ffffff;
+    font-size: 110px;
+    letter-spacing: 3px;
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+}
+
+.in-container .i{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 6s steps(63),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 4s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+}
+
+.in-container .so{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 6s steps(63),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 10s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+}
+
+/* .in-container .bro{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 3s steps(30),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 16s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+} */
+
+.in-container .bhai{
+    font-weight: 900;
+    border-right: 5px solid;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+            typing 3s steps(30),
+            cursor .4s step-end infinite alternate;
+    animation-delay: 17s;
+    animation-fill-mode: forwards ;
+    font-size: 25px;
+}
+
+.love-message {
+    margin-top: 20px; /* Add some space before "With all my love" */
+    font-size: 25px; /* Adjust font size if needed */
+    font-weight: 900;
+}
+
+.signature {
+    margin-top: 10px; /* Ensure "Yours Gates" appears just below */
+    font-size: 25px; /* Adjust font size if needed */
+    font-weight: 900;
+    letter-spacing: 1px;
+}

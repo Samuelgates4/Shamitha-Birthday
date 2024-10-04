@@ -1,0 +1,57 @@
+/* Container styling */
+.container-lum {
+    padding: 5%; /* Less padding to fit all elements */
+    position: relative;
+    background-color: #FFDFD3; /* Soft peach color */
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align items vertically */
+    flex-direction: row; /* Align elements horizontally */
+}
+
+/* Video styling - right side of the heart */
+.hand {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px; /* Add spacing between heart and video */
+}
+
+/* Right-side image styling - left side of the heart */
+.bori {
+    height: 400px;
+    width: 300px;
+    margin-left: 50px; /* Add spacing between heart and bori */
+}
+
+/* Center heart image */
+.love {
+    height: 150px;
+    width: 400px;
+    position: relative;
+    transform: rotate(-20deg);
+    margin-left: 50px;
+    margin-right: 50px; /* Add space between the heart and the images */
+}
+
+/* Rose decoration styling */
+.rose {
+    position: absolute;
+    width: 80px; /* Size of the roses */
+    height: auto;
+}
+
+/* Top left rose */
+.rose-top-left {
+    top: 5%;
+    left: 5%;
+    transform: rotate(-45deg); /* Optional: rotate to make it decorative */
+}
+
+/* Top right rose */
+.rose-top-right {
+    top: 5%;
+    right: 5%;
+    transform: rotate(45deg); /* Optional: rotate */
+}
+

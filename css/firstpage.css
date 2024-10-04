@@ -1,0 +1,71 @@
+
+
+  #firstsection {
+    position: relative;
+    height: 100vh; /* Full height */
+    width: 100vw; /* Full width */
+}
+
+/* Birthday message styling and positioning */
+.text {
+    position: absolute;
+    top: 10%; /* Adjust the top position as needed */
+    left: 18%; /* Move it to the left */
+    text-align: left; /* Align text to the left */
+    width: auto; /* No need for full width */
+}
+
+.text h1 {
+    font-family: 'Dancing Script', cursive; /* Fancy font */
+    font-size: 4em;
+    color: white; /* The same yellow-orange color */
+    animation: fadeIn 3s ease-in-out;
+    text-shadow: 2px 2px 8px #FF8C00; /* Glowing effect */
+}
+
+.text p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: white; /* The same yellow-orange color */
+    animation: fadeIn 3s ease-in-out 1s; /* Delay for p tag */
+    text-shadow: 2px 2px 8px #FF8C00; /* Glowing effect */
+}
+
+/* Animation for text fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Slight bounce from top */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+  .dar {
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Make it not visible initially */
+    animation: showDar 3s forwards; /* Fade-in animation */
+    animation-delay: 7s; /* Delay the animation by 7 seconds */
+    text-align: center; /* Keep text aligned to the center */
+    color: #8b6a60; /* Keep the original color */
+    font-family: 'Lato', 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.dar h1 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Animation to fade in the .dar class */
+@keyframes showDar {
+    to {
+        opacity: 1; /* Fully visible */
+        visibility: visible; /* Make it visible after 7 seconds */
+    }
+}
+  

@@ -1,0 +1,77 @@
+
+.container {
+    padding: 16% 16%;
+}
+
+.container p{
+    font-size: 25px;
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    background-color: #957DAD;
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.card.fade-out {
+    opacity: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card h2{
+    width: fit-content;
+    font-size: 50px;
+    display: none;
+}
+
+.card p{
+    display: none;
+}
+
+.card font {
+    margin-top: 120px;
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+
+.card.show font{
+    display: none;
+}
+
+.card.show p, .card.show h2{
+    display: block;
+}
+
+
+
+
+/* Styling for the song header */
+.song-header {
+    font-family: 'Dancing Script', cursive; /* A romantic font */
+    font-size: 3em; /* Bigger font size */
+    color: white; /* Deep pink color */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px #FF69B4; /* Soft shadow for a glowing effect */
+}
+
+/* Styling for the song message */
+.song-message {
+    font-family: 'Great Vibes', cursive; /* Another stylish font */
+    font-size: 1.8em; /* Slightly bigger font */
+    color: #8B0000; /* Deep red */
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 6px #FFB6C1; /* Light pink shadow */
+}
